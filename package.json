@@ -1,0 +1,14 @@
+{
+    "name": "projeto-html",
+    "version": "1.0.0",
+    "description": "Projeto HTML com Git, JavaScript e Docker",
+    "main": "index.js",
+    "scripts": {
+      "start": "node src/pages/server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+   
+  }
+  

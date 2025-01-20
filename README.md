@@ -30,12 +30,12 @@ Este é um projeto de uma página de acesso a conta do banco zanella utilizando 
 
 2. Construa a imagem Docker:
     ```sh
-    docker build -t caixa-eletronico .
+    docker build -t acesso-conta-banco-zanella .
     ```
 
 3. Execute o container Docker:
     ```sh
-    docker run -p 3000:3000 caixa-eletronico
+    docker run -p 3000:3000 acesso-conta-banco-zanella
     ```
 
 4. Acesse a aplicação no navegador:

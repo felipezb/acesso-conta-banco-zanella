@@ -1,11 +1,14 @@
 # Use a imagem oficial do Node.js
-FROM node:v22.13.0
+FROM node:22.13.0
+
+# Instale Git 
+RUN apt-get update && apt-get install -y git
 
 # Defina o diretório de trabalho
-WORKDIR /src/app
+WORKDIR /src/pages
 
 # Copie o arquivo package.json
-COPY package.json ./
+COPY package*.json ./
 
 # Instale as dependências
 RUN npm install
