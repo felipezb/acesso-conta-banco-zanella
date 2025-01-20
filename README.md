@@ -1,6 +1,6 @@
 # Projeto de Caixa Eletrônico
 
-Este é um projeto de um caixa eletrônico utilizando Node.js, HTML e JavaScript. O projeto é containerizado usando Docker e versionado com Git.
+Este é um projeto de uma página de acesso a conta do banco zanella utilizando Node.js, HTML e JavaScript. O projeto é containerizado usando Docker e versionado com Git.
 
 ## Ferramentas Utilizadas
 
@@ -9,6 +9,7 @@ Este é um projeto de um caixa eletrônico utilizando Node.js, HTML e JavaScript
 - **Node.js**: Ambiente de execução JavaScript no servidor.
 - **HTML**: Estruturação das páginas web.
 - **JavaScript**: Lógica de programação no lado do cliente.
+- **Bootstrap**: Framework CSS para estilização das páginas web.
 
 ## Estrutura do Projeto
 
@@ -42,6 +43,3 @@ Este é um projeto de um caixa eletrônico utilizando Node.js, HTML e JavaScript
     http://localhost:3000
     ```
 
-## Estrutura do HTML
-
-O arquivo [index.html] contém a estrutura básica da página inicial do caixa eletrônico
